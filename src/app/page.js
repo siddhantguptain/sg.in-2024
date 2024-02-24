@@ -1,9 +1,20 @@
 import Image from "next/image";
 
-export default function Home() {
+import Home from '../Components/Home/Home';
+import AboutMe from '../Components/AboutMe/AboutMe';
+import Skills from '../Components/Skills/Skills';
+import Certificates from '../Components/Certificates/Certificates';
+import Projects from '../Components/Projects/Projects';
+
+
+export default function App() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-         Namaste
+    <main>
+       <Home />
+       <AboutMe />
+       <Skills />
+       <Certificates />
+       <Projects />
     </main>
   );
 }
