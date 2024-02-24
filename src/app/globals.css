@@ -9,6 +9,27 @@
   --themeColorDark:  #833cf0;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--bgColor);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--themeColorDark);
+  border-radius: 50px 0px 0px 50Px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:var(--themeColorLight);
+}
+
 body{
   background-color:var(--bgColor);
   color:var(--themeColorDark) ;
