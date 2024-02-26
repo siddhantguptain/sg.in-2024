@@ -1,7 +1,17 @@
 .container{
     min-height: 100vh;
-    font-size: 3rem;
-    text-align: center;
-    padding: 40Vh;
-
+}
+.main{
+    margin-top: 10vh;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainBody{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
